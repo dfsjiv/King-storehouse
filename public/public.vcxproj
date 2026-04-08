@@ -128,11 +128,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="FileName.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="List_related.cpp" />
     <ClCompile Include="Queue_related.cpp" />
     <ClCompile Include="Recursion.cpp" />
     <ClCompile Include="Stack_related.cpp" />
+    <ClCompile Include="Tree.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FileName.h" />
@@ -140,6 +141,7 @@
     <ClInclude Include="Recursion.h" />
     <ClInclude Include="Stack_related.h" />
     <ClInclude Include="Queue_related.h" />
+    <ClInclude Include="Tree.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="README.txt" />

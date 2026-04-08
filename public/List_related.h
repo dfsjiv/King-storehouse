@@ -20,5 +20,5 @@ public:
 	void deleteMidle(int postion);//删除中间的节点
 	void deleteTail();//尾删法
 	void deleteList();//整表删除
-
+	//应该把析构函数给作为deleteList,这么写不规范
 };
