@@ -48,7 +48,33 @@ auto Stack_related::calculator_Stack(string s)
 {
 	//要队列，现在先不写
 
-
-
-
+}
+void Stack_related::dfs(int u)
+{
+	if (u == n)
+	{
+		for (int i = 0; i < n; i++)
+		{
+			cout << nums[i];
+		}
+		cout << " ";
+		return;
+	}
+	for (int i = 1; i <= n; i++)
+	{
+		if (!nums[i])
+		{
+			ans[i] = true;
+			nums[u] = i;
+			dfs(u + 1);
+			ans[i] = false;
+		}
+	}
+}
+void Stack_related::DfsFpp(int k)
+{
+	n = k;
+	nums.resize(n);
+	ans.resize(n + 1);
+	dfs(0);
 }

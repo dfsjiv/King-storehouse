@@ -128,16 +128,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="algorithm_related.cpp" />
+    <ClCompile Include="Graph.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="List_related.cpp" />
+    <ClCompile Include="menu.cpp" />
     <ClCompile Include="Queue_related.cpp" />
     <ClCompile Include="Recursion.cpp" />
     <ClCompile Include="Stack_related.cpp" />
     <ClCompile Include="Tree.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="algorithm_related.h" />
     <ClInclude Include="FileName.h" />
+    <ClInclude Include="Graph.h" />
     <ClInclude Include="List_related.h" />
+    <ClInclude Include="menu.h" />
     <ClInclude Include="Recursion.h" />
     <ClInclude Include="Stack_related.h" />
     <ClInclude Include="Queue_related.h" />
