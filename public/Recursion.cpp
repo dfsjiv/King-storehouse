@@ -17,5 +17,5 @@ int Recursion::Fibonacci(int n)//还是注意不要太大,后续会写大数
 int Recursion::Eight_Queens_Puzzle(int n)
 {
 
-
+	return 0;
 }
