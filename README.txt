@@ -17,5 +17,5 @@ Stack_related.h is saving linked stack related content and realted issue,such as
 ////////////////////////////////
 I can encapsulate the code that will putting Algorithm Problem Solving int lougu,leetcode,codefores or nike.
 //////////////////////////
-
+Nowly,we can writes some algorithm fations,such as 
 

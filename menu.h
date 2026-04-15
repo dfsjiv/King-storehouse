@@ -1,7 +1,7 @@
 #pragma once
 #include<iostream>
 #include<algorithm>
-using namespace std;
+//using namespace std;
 class menu
 {
 	void menu_show();

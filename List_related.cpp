@@ -1,6 +1,6 @@
 #include<iostream>
 #include"List_related.h"
-using namespace std;
+//using namespace std;
 
 List_related::List_related():head(NULL) {};
 
@@ -8,7 +8,7 @@ void List_related::deleteHead()//头删
 {
 	if (head == NULL)
 	{
-		cout << "这个链表是空的" << endl;
+		std::cout << "这个链表是空的" << std::endl;
 		return;
 	}
 	else {
@@ -22,7 +22,7 @@ void List_related::deleteMidle(int postion)
 {
 	if (head == NULL)
 	{
-		cout << "这个链表是空的" << endl;
+		std::cout << "这个链表是空的" << std::endl;
 		return;
 	}
 	else {
@@ -40,7 +40,7 @@ void List_related::deleteMidle(int postion)
 			}
 			if (temp == NULL || temp->Nodenext == NULL)
 			{
-				cout << "该节点不存在" << endl;
+				std::cout << "该节点不存在" << std::endl;
 			}
 			//这里意思是
 			Node* deleteNode = temp->Nodenext;
@@ -54,7 +54,7 @@ void List_related::deleteTail()//尾删法
 {
 	if (head == NULL)
 	{
-		cout << "这链表为空" << endl;
+		std::cout << "这链表为空" << std::endl;
 		return;
 	}
 	if (head->Nodenext == NULL)
@@ -88,8 +88,8 @@ void List_related::printList()//创建链表
 	Node* current = head;
 	while (current != NULL)
 	{
-		cout << current->data;
-		if (current->Nodenext != NULL)cout << "->";
+		std::cout << current->data;
+		if (current->Nodenext != NULL)std::cout << "->";
 		current = current->Nodenext;
 	}
 }
@@ -135,7 +135,7 @@ void List_related::insertMiddle(int value, int postion)//中间插法
 		}
 		if (temp == NULL)
 		{
-			cout << "超出范围，请用尾插(如果你非要插入的话)" << endl;
+			std::cout << "超出范围，请用尾插(如果你非要插入的话)" << std::endl;
 			delete newNode;
 			return;
 		}

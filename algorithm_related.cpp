@@ -3,8 +3,8 @@
 #include<map>
 #include<string>
 #include"algorithm_related.h"
-using namespace std;
-void algorithm_related::Cmn(vector<long long>& nums,int k)
+//using namespace std;
+void algorithm_related::Cmn(std::vector<long long>& nums,int k)
 {
 	if (k == 1)
 	{
@@ -13,7 +13,7 @@ void algorithm_related::Cmn(vector<long long>& nums,int k)
 		for (int i = 0; i < n; i++)
 		{
 			long long p = 0;
-			map<long long, long long>ans;
+			std::map<long long, long long>ans;
 			for (int j = i; j < n; j++)
 			{
 				ans[nums[j]]++;
@@ -22,11 +22,12 @@ void algorithm_related::Cmn(vector<long long>& nums,int k)
 					re = 0;
 					break;
 				}
-				re = max(re, j - i + 1);
+				re = std::max(re, j - i + 1);
 			}
 		}
-		cout << "这是使用暴力的方法做的" << " " << re << endl;
-		cout << "喵喵" << endl;
+		std::cout << "这是暴力做法" << std::endl;
+		std::cout << "喵喵" << std::endl;
+		std::cout << re << std::endl;
 	}
 	if (k == 2)
 	{

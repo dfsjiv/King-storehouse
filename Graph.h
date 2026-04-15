@@ -1,8 +1,8 @@
 #pragma once
 #include<iostream>
 #include<vector>
-using namespace std;
-using Edge = pair<int, int>;//定义边的类型，将边表示为一个整数对(起点, 终点)，简单表示
+//using namespace std;
+using Edge = std::pair<int, int>;//定义边的类型，将边表示为一个整数对(起点, 终点)，简单表示
 class Graph 
 {
 	//图的存储结构是邻接矩阵和邻接表
@@ -13,7 +13,7 @@ class Graph
 private:
 	int vertices_;
 	bool directed_;
-	vector<vector<Edge>>adj_;
+	std::vector<std::vector<Edge>>adj_;
 
 public:
 	explicit Graph(int vertices, bool directed = false)
