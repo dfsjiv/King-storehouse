@@ -17,5 +17,7 @@ Stack_related.h is saving linked stack related content and realted issue,such as
 ////////////////////////////////
 I can encapsulate the code that will putting Algorithm Problem Solving int lougu,leetcode,codefores or nike.
 //////////////////////////
-
+ At 2026.4.15,I remove "using namespace std".I think that doing is bad  and  danger.Becuse I have plyaying algorithm ans learning data structure.
+///////////////////////////////////////////////
+If I have some woring ans bad wiriting ,hoping your heping ans guide.
 
