@@ -1,0 +1,255 @@
+﻿E:\VS2022_\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(548,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(public.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  algorithm_related.cpp
+D:\vs_code\project\public\public\algorithm_related.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\vs_code\project\public\public\algorithm_related.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“algorithm_related.cpp”)
+  
+D:\vs_code\project\public\public\algorithm_related.cpp(12,9): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\vs_code\project\public\public\algorithm_related.cpp(28,67): error C2001: 常量中有换行符
+D:\vs_code\project\public\public\algorithm_related.cpp(29,3): error C2146: 语法错误: 缺少“;”(在标识符“cout”的前面)
+  main.cpp
+  menu.cpp
+D:\vs_code\project\public\public\menu.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\rpcndr.h(203,9): error C2872: “byte”: 不明确的符号
+  (编译源文件“menu.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\rpcndr.h(202,23):
+      可能是“unsigned char byte”
+      E:\VS2022_\VC\Tools\MSVC\14.50.35717\include\cstddef(34,24):
+      或    “std::byte”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\rpcndr.h(975,6): error C2872: “byte”: 不明确的符号
+  (编译源文件“menu.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\rpcndr.h(202,23):
+      可能是“unsigned char byte”
+      E:\VS2022_\VC\Tools\MSVC\14.50.35717\include\cstddef(34,24):
+      或    “std::byte”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\rpcndr.h(983,6): error C2872: “byte”: 不明确的符号
+  (编译源文件“menu.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\rpcndr.h(202,23):
+      可能是“unsigned char byte”
+      E:\VS2022_\VC\Tools\MSVC\14.50.35717\include\cstddef(34,24):
+      或    “std::byte”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\wtypesbase.h(453,21): error C2872: “byte”: 不明确的符号
+  (编译源文件“menu.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\rpcndr.h(202,23):
+      可能是“unsigned char byte”
+      E:\VS2022_\VC\Tools\MSVC\14.50.35717\include\cstddef(34,24):
+      或    “std::byte”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\wtypesbase.h(478,21): error C2872: “byte”: 不明确的符号
+  (编译源文件“menu.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\rpcndr.h(202,23):
+      可能是“unsigned char byte”
+      E:\VS2022_\VC\Tools\MSVC\14.50.35717\include\cstddef(34,24):
+      或    “std::byte”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\wtypesbase.h(495,21): error C2872: “byte”: 不明确的符号
+  (编译源文件“menu.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\rpcndr.h(202,23):
+      可能是“unsigned char byte”
+      E:\VS2022_\VC\Tools\MSVC\14.50.35717\include\cstddef(34,24):
+      或    “std::byte”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\wtypes.h(85,21): error C2872: “byte”: 不明确的符号
+  (编译源文件“menu.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\rpcndr.h(202,23):
+      可能是“unsigned char byte”
+      E:\VS2022_\VC\Tools\MSVC\14.50.35717\include\cstddef(34,24):
+      或    “std::byte”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\wtypes.h(94,21): error C2872: “byte”: 不明确的符号
+  (编译源文件“menu.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\rpcndr.h(202,23):
+      可能是“unsigned char byte”
+      E:\VS2022_\VC\Tools\MSVC\14.50.35717\include\cstddef(34,24):
+      或    “std::byte”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\wtypes.h(100,21): error C2872: “byte”: 不明确的符号
+  (编译源文件“menu.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\rpcndr.h(202,23):
+      可能是“unsigned char byte”
+      E:\VS2022_\VC\Tools\MSVC\14.50.35717\include\cstddef(34,24):
+      或    “std::byte”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\wtypes.h(106,21): error C2872: “byte”: 不明确的符号
+  (编译源文件“menu.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\rpcndr.h(202,23):
+      可能是“unsigned char byte”
+      E:\VS2022_\VC\Tools\MSVC\14.50.35717\include\cstddef(34,24):
+      或    “std::byte”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\wtypes.h(112,21): error C2872: “byte”: 不明确的符号
+  (编译源文件“menu.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\rpcndr.h(202,23):
+      可能是“unsigned char byte”
+      E:\VS2022_\VC\Tools\MSVC\14.50.35717\include\cstddef(34,24):
+      或    “std::byte”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\wtypes.h(118,21): error C2872: “byte”: 不明确的符号
+  (编译源文件“menu.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\rpcndr.h(202,23):
+      可能是“unsigned char byte”
+      E:\VS2022_\VC\Tools\MSVC\14.50.35717\include\cstddef(34,24):
+      或    “std::byte”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\wtypes.h(493,21): error C2872: “byte”: 不明确的符号
+  (编译源文件“menu.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\rpcndr.h(202,23):
+      可能是“unsigned char byte”
+      E:\VS2022_\VC\Tools\MSVC\14.50.35717\include\cstddef(34,24):
+      或    “std::byte”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidlbase.h(2331,74): error C2872: “byte”: 不明确的符号
+  (编译源文件“menu.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\rpcndr.h(202,23):
+      可能是“unsigned char byte”
+      E:\VS2022_\VC\Tools\MSVC\14.50.35717\include\cstddef(34,24):
+      或    “std::byte”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidlbase.h(2345,57): error C2872: “byte”: 不明确的符号
+  (编译源文件“menu.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\rpcndr.h(202,23):
+      可能是“unsigned char byte”
+      E:\VS2022_\VC\Tools\MSVC\14.50.35717\include\cstddef(34,24):
+      或    “std::byte”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidlbase.h(9143,74): error C2872: “byte”: 不明确的符号
+  (编译源文件“menu.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\rpcndr.h(202,23):
+      可能是“unsigned char byte”
+      E:\VS2022_\VC\Tools\MSVC\14.50.35717\include\cstddef(34,24):
+      或    “std::byte”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidlbase.h(9159,57): error C2872: “byte”: 不明确的符号
+  (编译源文件“menu.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\rpcndr.h(202,23):
+      可能是“unsigned char byte”
+      E:\VS2022_\VC\Tools\MSVC\14.50.35717\include\cstddef(34,24):
+      或    “std::byte”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(11095,64): error C2872: “byte”: 不明确的符号
+  (编译源文件“menu.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\rpcndr.h(202,23):
+      可能是“unsigned char byte”
+      E:\VS2022_\VC\Tools\MSVC\14.50.35717\include\cstddef(34,24):
+      或    “std::byte”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(11653,72): error C2872: “byte”: 不明确的符号
+  (编译源文件“menu.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\rpcndr.h(202,23):
+      可能是“unsigned char byte”
+      E:\VS2022_\VC\Tools\MSVC\14.50.35717\include\cstddef(34,24):
+      或    “std::byte”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(11685,72): error C2872: “byte”: 不明确的符号
+  (编译源文件“menu.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\rpcndr.h(202,23):
+      可能是“unsigned char byte”
+      E:\VS2022_\VC\Tools\MSVC\14.50.35717\include\cstddef(34,24):
+      或    “std::byte”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12193,74): error C2872: “byte”: 不明确的符号
+  (编译源文件“menu.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\rpcndr.h(202,23):
+      可能是“unsigned char byte”
+      E:\VS2022_\VC\Tools\MSVC\14.50.35717\include\cstddef(34,24):
+      或    “std::byte”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12208,57): error C2872: “byte”: 不明确的符号
+  (编译源文件“menu.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\rpcndr.h(202,23):
+      可能是“unsigned char byte”
+      E:\VS2022_\VC\Tools\MSVC\14.50.35717\include\cstddef(34,24):
+      或    “std::byte”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(12669,21): error C2872: “byte”: 不明确的符号
+  (编译源文件“menu.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\rpcndr.h(202,23):
+      可能是“unsigned char byte”
+      E:\VS2022_\VC\Tools\MSVC\14.50.35717\include\cstddef(34,24):
+      或    “std::byte”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(14483,57): error C2872: “byte”: 不明确的符号
+  (编译源文件“menu.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\rpcndr.h(202,23):
+      可能是“unsigned char byte”
+      E:\VS2022_\VC\Tools\MSVC\14.50.35717\include\cstddef(34,24):
+      或    “std::byte”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(14498,57): error C2872: “byte”: 不明确的符号
+  (编译源文件“menu.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\rpcndr.h(202,23):
+      可能是“unsigned char byte”
+      E:\VS2022_\VC\Tools\MSVC\14.50.35717\include\cstddef(34,24):
+      或    “std::byte”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16237,74): error C2872: “byte”: 不明确的符号
+  (编译源文件“menu.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\rpcndr.h(202,23):
+      可能是“unsigned char byte”
+      E:\VS2022_\VC\Tools\MSVC\14.50.35717\include\cstddef(34,24):
+      或    “std::byte”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16253,57): error C2872: “byte”: 不明确的符号
+  (编译源文件“menu.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\rpcndr.h(202,23):
+      可能是“unsigned char byte”
+      E:\VS2022_\VC\Tools\MSVC\14.50.35717\include\cstddef(34,24):
+      或    “std::byte”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16400,72): error C2872: “byte”: 不明确的符号
+  (编译源文件“menu.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\rpcndr.h(202,23):
+      可能是“unsigned char byte”
+      E:\VS2022_\VC\Tools\MSVC\14.50.35717\include\cstddef(34,24):
+      或    “std::byte”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16439,72): error C2872: “byte”: 不明确的符号
+  (编译源文件“menu.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\rpcndr.h(202,23):
+      可能是“unsigned char byte”
+      E:\VS2022_\VC\Tools\MSVC\14.50.35717\include\cstddef(34,24):
+      或    “std::byte”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16456,74): error C2872: “byte”: 不明确的符号
+  (编译源文件“menu.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\rpcndr.h(202,23):
+      可能是“unsigned char byte”
+      E:\VS2022_\VC\Tools\MSVC\14.50.35717\include\cstddef(34,24):
+      或    “std::byte”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16473,57): error C2872: “byte”: 不明确的符号
+  (编译源文件“menu.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\rpcndr.h(202,23):
+      可能是“unsigned char byte”
+      E:\VS2022_\VC\Tools\MSVC\14.50.35717\include\cstddef(34,24):
+      或    “std::byte”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16718,57): error C2872: “byte”: 不明确的符号
+  (编译源文件“menu.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\rpcndr.h(202,23):
+      可能是“unsigned char byte”
+      E:\VS2022_\VC\Tools\MSVC\14.50.35717\include\cstddef(34,24):
+      或    “std::byte”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\objidl.h(16737,57): error C2872: “byte”: 不明确的符号
+  (编译源文件“menu.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\rpcndr.h(202,23):
+      可能是“unsigned char byte”
+      E:\VS2022_\VC\Tools\MSVC\14.50.35717\include\cstddef(34,24):
+      或    “std::byte”
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\oaidl.h(571,21): error C2872: “byte”: 不明确的符号
+  (编译源文件“menu.cpp”)
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\rpcndr.h(202,23):
+      可能是“unsigned char byte”
+      E:\VS2022_\VC\Tools\MSVC\14.50.35717\include\cstddef(34,24):
+      或    “std::byte”
+  
+  Stack_related.cpp
+D:\vs_code\project\public\public\Stack_related.cpp(27,10): warning C4305: “return”: 从“int”到“bool”截断
+D:\vs_code\project\public\public\Stack_related.cpp(33,8): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\vs_code\project\public\public\Stack_related.cpp(42,21): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+  正在生成代码...
