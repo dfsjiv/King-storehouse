@@ -49,6 +49,7 @@ auto Stack_related::calculator_Stack(string s)
 	//要队列，现在先不写
 
 }
+//这里是借助私有变量vector（一个是bool数组来处理全排列）和n来
 void Stack_related::dfs(int u)
 {
 	if (u == n)
